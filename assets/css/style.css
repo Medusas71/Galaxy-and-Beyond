@@ -1,0 +1,62 @@
+/* Navigation Menu */
+
+.navbar {
+    border-bottom: 1px blue solid;
+}
+
+.navbar-header {
+    margin-top: 80px;
+    margin-left: 175px;
+    padding: 15px;
+    text-align: center;
+    width: 70%;
+    /* float: left; */
+}
+
+.navbar-brand {
+    float: none;
+}
+
+.navbar-brand {
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+
+.navbar-toggler {
+    border: 3px blue solid; /* done this so we can see the hamburger button */
+}
+
+.navbar-nav {
+    display: block;
+    margin: 0 auto;
+    float: none;
+    text-align: center;
+}
+
+.navbar-nav > li {
+    display: inline-block;
+    float: none;
+    margin-bottom: 90px;
+}
+
+/* header */
+
+.home-page-header {
+    margin: 20px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+/* Media Queries
+
+@media (max-width: 320px) {
+    .navbar-brand {
+        margin: 0;
+    }
+}
+
+@media (min-width: 320px) {
+    .navbar-brand {
+        margin: 0;
+    }
+} */
