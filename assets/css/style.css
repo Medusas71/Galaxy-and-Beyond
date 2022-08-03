@@ -1,7 +1,15 @@
+
 /* Navigation Menu */
 
+.nav-background-image {
+    background-image: url('../images/stary-sky.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
 .navbar {
-    border-bottom: 1px blue solid;
+    border-bottom: 3px #000 solid;
 }
 
 .navbar-header {
@@ -14,10 +22,8 @@
 }
 
 .navbar-brand {
+    color: #fff;
     float: none;
-}
-
-.navbar-brand {
     font-size: 2rem;
     text-transform: uppercase;
 }
@@ -39,24 +45,8 @@
     margin-bottom: 90px;
 }
 
-/* header */
-
-.home-page-header {
-    margin: 20px;
-    text-align: center;
-    text-transform: uppercase;
+.nav-link {
+    color: #fff;
+    border: 3px solid #000;
+    background-color: #000;
 }
-
-/* Media Queries
-
-@media (max-width: 320px) {
-    .navbar-brand {
-        margin: 0;
-    }
-}
-
-@media (min-width: 320px) {
-    .navbar-brand {
-        margin: 0;
-    }
-} */
