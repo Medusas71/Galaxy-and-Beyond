@@ -1,3 +1,7 @@
+body {
+    background: black url('http://fc01.deviantart.net/fs71/f/2012/160/b/9/stars_by_paulinemoss-d52un4e.jpg');
+    animation: stars 205s linear alternate;
+}
 
 /* Global Settings */
 
@@ -9,11 +13,13 @@ body {
 
 /* Navigation Menu */
 
+.space-shuttle {
+    width: 40%;
+    padding: 20px;
+}
+
 .nav-background-image {
-    background-image: url('../images/stary-sky.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
+    background: url('../images/stary-sky.jpg') center center / cover no-repeat;
 }
 
 .navbar {
@@ -25,8 +31,7 @@ body {
     margin-left: 175px;
     padding: 15px;
     text-align: center;
-    width: 70%;
-    /* float: left; */
+    width: 72%;
 }
 
 .navbar-brand {
@@ -69,6 +74,7 @@ body {
 .card {
     background-color: #000;
     margin: 50px;
+    filter: drop-shadow(0.3rem 0.3rem 2rem rgba(38, 83, 132, 1));
     border: 3px solid #000;
 }
 
@@ -93,16 +99,14 @@ body {
 
 .facts-row {
     color: #fff;
+    padding: 10px;
     text-align: center;
 }
 
 .facts-container {
-    background-image: url('../images/stary-sky.jpg');
+    background: url('../images/stary-sky.jpg') center center / cover no-repeat;
     height: 400px;
     width: 100%;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
     border: 3px #000 solid;
 }
 
@@ -200,3 +204,44 @@ a {
         width: 450px;
     }
 }
+
+/* hover */
+
+/* .nav-link:hover {
+    color: #fff;
+} */
+
+.navbar-nav > li:hover {
+    filter: drop-shadow(0.3rem 0.3rem 2rem rgba(38, 83, 132, 1));
+}
+
+/* animation */
+
+    #slide {
+        position: absolute;
+        bottom: 5px;
+        left: -600px;
+        width: 250px;
+        -webkit-animation: slide 1s forwards;
+        -webkit-animation-delay: 2s;
+        animation: slide 1s forwards;
+        animation-delay: 2s;
+    }
+    
+    @-webkit-keyframes slide {
+        100% { left: 0; }
+    }
+    
+    @keyframes slide {
+        100% { left: 0; }
+    }
+
+    @keyframes stars {
+        0% {
+            background-position: 0 0
+        }
+
+        100% {
+            background-position: 0 100%
+        }
+    }
