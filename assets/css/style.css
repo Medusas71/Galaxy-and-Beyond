@@ -3,6 +3,14 @@ body {
     animation: stars 205s linear alternate;
 }
 
+/* Global Settings */
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
 /* Navigation Menu */
 
 .space-shuttle {
@@ -81,7 +89,8 @@ body {
 
 .facts-header {
     color: #fff;
-    margin: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
     text-align: center;
     text-transform: uppercase;
 }
@@ -97,8 +106,103 @@ body {
 .facts-container {
     background: url('../images/stary-sky.jpg') center center / cover no-repeat;
     height: 400px;
-    width: 100vw;
+    width: 100%;
     border: 3px #000 solid;
+}
+
+/* Footer */
+
+footer {
+    margin-top: auto;
+}
+
+.footer-container {
+    width: 100%;
+}
+
+.footer-background {
+    background-color: #030406;
+    display: flex;
+}
+
+.footer-row {
+    color: #fff;
+    text-align: center;
+}
+
+a {
+    color: #fff;
+}
+
+.footer-button-style {
+    font-style: italic;
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin: auto;
+    width: 90%;
+    padding-left: 15px;
+    align-items: middle;
+    text-decoration: none;
+}
+
+.copyright-style p {
+    /* font-family: "Roboto", sans-serif; */
+    font-size: 12px;
+    letter-spacing: 1px;  
+    line-height: 0;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/* Footer Map */
+/* https://google-map-generator.com/ */
+
+.mapouter {
+    position: relative;
+    text-align: center;
+    width: 450px;
+}
+
+.gmap_canvas {
+    overflow: hidden;
+    background: none !important;
+    width: 750px;
+    align-items: center;
+    float: left;
+}
+
+.iframe-size {
+    width: 650px;
+    height: 200px;
+}
+
+/*------------------------- media queries */
+
+/*------------------------- small devices (up to 480px) */
+
+@media screen and (max-width: 480px) {
+    
+    .mapouter {
+        width: 250px;
+    }
+    
+    .gmap_canvas {
+        width: 250px;
+    }
+}
+
+/*------------------------- large screens (laptops, 992px and up)---*/
+
+@media screen and (min-width: 992px) {
+
+    .mapouter {
+        width: 450px;
+    }
+    
+    .gmap_canvas {
+        width: 450px;
+    }
 }
 
 /* hover */
@@ -110,7 +214,6 @@ body {
 .navbar-nav > li:hover {
     filter: drop-shadow(0.3rem 0.3rem 2rem rgba(38, 83, 132, 1));
 }
-
 
 /* animation */
 
