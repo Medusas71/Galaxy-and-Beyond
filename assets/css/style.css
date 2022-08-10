@@ -12,9 +12,9 @@ body {
 /* space shuttle animation */
 #slide {
     position: absolute;
-    bottom: 5px;
+    bottom: 30px;
     left: -600px;
-    width: 250px;
+    width: 150px;
     -webkit-animation: slide 1s forwards;
     -webkit-animation-delay: 2s;
     animation: slide 1s forwards;
@@ -47,8 +47,7 @@ body {
 /* Navigation Menu */
 
 .space-shuttle {
-    width: 40%;
-    padding: 20px;
+    padding-left: 20px;
 }
 
 .nav-background-image {
@@ -60,16 +59,14 @@ body {
 }
 
 .navbar-header {
-    margin-top: 80px;
-    padding: 15px;
     text-align: center;
-    width: 72%;
 }
 
 .navbar-brand {
     color: #fff;
-    float: none;
     font-size: 2rem;
+    padding: 20px;
+    float: none;
     text-transform: uppercase;
 }
 
@@ -83,18 +80,22 @@ body {
     margin: 0 auto;
     float: none;
     text-align: center;
+} 
+
+#navbarNav {
+    padding: 20px;
+    flex-grow: 0;
 }
 
 .navbar-nav > li {
     display: inline-block;
     float: none;
-    margin-bottom: 90px;
-}
+} 
 
 .nav-link {
+    background-color: #000;
     color: #fff;
     border: 3px solid #000;
-    background-color: #000;
 }
 
 .fa-solid.fa-shuttle-space {
@@ -224,6 +225,10 @@ a {
 
 @media screen and (max-width: 480px) {
 
+    .space-shuttle {
+        display: none;
+    }
+
     .card {
         margin-top: 20px;
     }
@@ -240,6 +245,10 @@ a {
 /*------------------------- screen size (576px) */
 
 @media screen and (max-width: 576px) {
+
+    .space-shuttle {
+        display: none;
+    }
 
     .card {
         position: relative;
@@ -264,6 +273,11 @@ a {
 /*------------------------- screen size (768px) */
 
 @media (max-width: 768px) {
+
+    .space-shuttle {
+        display: none;
+    }
+
     .card {
         position: relative;
         left: 150px;
@@ -272,7 +286,11 @@ a {
 
 /*------------------------- large screens (laptops, 992px)---*/
 
-@media screen and (min-width: 992px) {
+@media (min-width: 992px) {
+
+    .navbar-header {
+        margin-top: 80px;
+    }
     
     .card-img-top {
         width: 100%;
