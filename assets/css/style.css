@@ -160,8 +160,10 @@ footer {
 }
 
 .footer-background {
+    background: url('../images/stary-sky.jpg') center center / cover no-repeat;
     background-color: #030406;
     display: flex;
+    border-top: 3px #000 solid;
 }
 
 .footer-row {
