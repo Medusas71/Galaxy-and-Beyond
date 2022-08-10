@@ -1,14 +1,47 @@
 body {
     background: black url('http://fc01.deviantart.net/fs71/f/2012/160/b/9/stars_by_paulinemoss-d52un4e.jpg');
     animation: stars 205s linear alternate;
-}
-
-/* Global Settings */
-
-body {
+    /* Global Settings */
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+}
+
+/* animation */
+
+/* space shuttle animation */
+#slide {
+    position: absolute;
+    bottom: 5px;
+    left: -600px;
+    width: 250px;
+    -webkit-animation: slide 1s forwards;
+    -webkit-animation-delay: 2s;
+    animation: slide 1s forwards;
+    animation-delay: 2s;
+}
+
+@-webkit-keyframes slide {
+    100% {
+        left: 0;
+    }
+}
+
+@keyframes slide {
+    100% {
+        left: 0;
+    }
+}
+
+/* moving stars animation */
+@keyframes stars {
+    0% {
+        background-position: 0 0
+    }
+
+    100% {
+        background-position: 0 100%
+    }
 }
 
 /* Navigation Menu */
@@ -28,7 +61,6 @@ body {
 
 .navbar-header {
     margin-top: 80px;
-    margin-left: 175px;
     padding: 15px;
     text-align: center;
     width: 72%;
@@ -42,7 +74,8 @@ body {
 }
 
 .navbar-toggler {
-    border: 3px blue solid; /* done this so we can see the hamburger button */
+    border: 3px blue solid;
+    /* done this so we can see the hamburger button */
 }
 
 .navbar-nav {
@@ -73,8 +106,8 @@ body {
 
 .card {
     background-color: #000;
-    margin: 50px;
-    /* filter: drop-shadow(0.3rem 0.3rem 2rem rgba(38, 83, 132, 1)); */ /* this is drop-shadow with just blue*/
+    margin: 10px;
+    /* filter: drop-shadow(0.3rem 0.3rem 2rem rgba(38, 83, 132, 1)); */
     box-shadow: 0.3rem 0.3rem 2rem rgba(38, 83, 132, 1), 0.3rem 0.3rem 2rem rgba(123, 39, 44, 1);
     border: 3px solid #000;
 }
@@ -88,10 +121,7 @@ body {
     box-shadow: 0 0.3rem 0 0 rgba(44, 53, 49, 1);
 }
 
-.card-img-top {
-    width: 100%;
-    height: 15vw;
-}
+/* facts section */
 
 .card-facts {
     background-color: #000;
@@ -100,16 +130,12 @@ body {
     opacity: 0.7;
 }
 
-/* headers */
-
 .facts-header {
     color: #fff;
     margin: 15px;
     text-align: center;
     text-transform: uppercase;
 }
-
-/* other */
 
 .facts-row {
     color: #fff;
@@ -118,10 +144,9 @@ body {
 }
 
 .facts-container {
-    background: url('../images/stary-sky.jpg') center center / cover no-repeat;
     height: 400px;
     width: 100%;
-    border: 3px #000 solid;
+    margin-bottom: 30px;
 }
 
 /* Footer */
@@ -163,7 +188,7 @@ a {
 .copyright-style p {
     /* font-family: "Roboto", sans-serif; */
     font-size: 12px;
-    letter-spacing: 1px;  
+    letter-spacing: 1px;
     line-height: 0;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -196,65 +221,108 @@ a {
 /*------------------------- small devices (up to 480px) */
 
 @media screen and (max-width: 480px) {
-    
+
+    .card {
+        margin-top: 20px;
+    }
+
     .mapouter {
         width: 250px;
     }
-    
+
     .gmap_canvas {
         width: 250px;
     }
 }
 
-/*------------------------- large screens (laptops, 992px and up)---*/
+/*------------------------- screen size (576px) */
+
+@media screen and (max-width: 576px) {
+
+    .card {
+        position: relative;
+        left: 80px !important;
+    }
+
+    .card-img-top {
+        width: 100%;
+        height: 40vw !important;
+    }
+
+    .mapouter {
+        width: 250px;
+    }
+
+    .gmap_canvas {
+        width: 250px;
+    }
+}
+
+
+/*------------------------- screen size (768px) */
+
+@media (max-width: 768px) {
+    .card {
+        position: relative;
+        left: 150px;
+    }
+}
+
+/*------------------------- large screens (laptops, 992px)---*/
 
 @media screen and (min-width: 992px) {
+    
+    .card-img-top {
+        width: 100%;
+        height: 30vw !important;
+    }
 
     .mapouter {
         width: 450px;
     }
-    
+
     .gmap_canvas {
         width: 450px;
     }
 }
 
-/* hover */
+/*------------------------- large screens (laptops, 1200px)---*/
 
-/* .nav-link:hover {
-    color: #fff;
-} */
+@media (min-width: 1200px) {
 
-
-/* animation */
-
-    /* space shuttle animation */
-    #slide {
-        position: absolute;
-        bottom: 5px;
-        left: -600px;
-        width: 250px;
-        -webkit-animation: slide 1s forwards;
-        -webkit-animation-delay: 2s;
-        animation: slide 1s forwards;
-        animation-delay: 2s;
-    }
-    
-    @-webkit-keyframes slide {
-        100% { left: 0; }
-    }
-    
-    @keyframes slide {
-        100% { left: 0; }
+    .card {
+        width: 22rem !important;
+        margin-top: 20px;
     }
 
-    /* moving stars animation */
-    @keyframes stars {
-        0% {
-            background-position: 0 0
-        }
-
-        100% {
-            background-position: 0 100%
-        }
+    .card-img-top {
+        width: 100%;
+        height: 28vw;
     }
+
+    .mapouter {
+        width: 450px;
+    }
+
+    .gmap_canvas {
+        width: 450px;
+    }
+}
+
+/*------------------------- large screens (laptops, 1400px)---*/
+
+@media (min-width: 1400px) {
+
+    .card-img-top {
+        width: 100%;
+        height: 15vw !important;
+    }
+
+    .mapouter {
+        width: 450px;
+    }
+
+    .gmap_canvas {
+        width: 450px;
+    }
+}
