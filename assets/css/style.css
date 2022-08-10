@@ -246,6 +246,26 @@ a {
     }
 }
 
+/*------------------------- screen size (576px) */
+
+@media (max-width: 576px) {
+
+    .card {
+        width: 32rem !important;
+    }
+}
+
+/*------------------------- screen size (768px) */
+
+@media (max-width: 768px) {
+
+    .card {
+        width: 30rem !important;
+        left: 100px;
+        margin: 20px;
+    }
+}
+
 /*------------------------- large screens (laptops, 992px and up)---*/
 
 @media screen and (min-width: 992px) {
