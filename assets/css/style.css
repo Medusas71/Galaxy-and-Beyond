@@ -118,10 +118,9 @@ body {
 }
 
 .facts-container {
-    background: url('../images/stary-sky.jpg') center center / cover no-repeat;
     height: 400px;
     width: 100%;
-    border: 3px #000 solid;
+    margin-bottom: 30px;
 }
 
 /* Footer */
@@ -218,13 +217,6 @@ a {
         width: 450px;
     }
 }
-
-/* hover */
-
-/* .nav-link:hover {
-    color: #fff;
-} */
-
 
 /* animation */
 
