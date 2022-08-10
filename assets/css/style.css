@@ -266,13 +266,36 @@ a {
     }
 }
 
-/*------------------------- large screens (laptops, 992px and up)---*/
+/*------------------------- large screens (laptops, 992px)---*/
 
-@media screen and (min-width: 992px) {
+@media screen and (max-width: 992px) {
 
     .card-img-top {
         width: 100%;
         height: 30vw;
+    }
+
+    .mapouter {
+        width: 450px;
+    }
+
+    .gmap_canvas {
+        width: 450px;
+    }
+}
+
+/*------------------------- large screens (laptops, 1200px)---*/
+
+@media (min-width: 1200px) {
+
+    .card {
+        width: 22rem !important;
+        margin-top: 20px;
+    }
+
+    .card-img-top {
+        width: 100%;
+        height: 28vw;
     }
 
     .mapouter {
