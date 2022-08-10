@@ -237,6 +237,15 @@ a {
     }
 }
 
+/*------------------------- screen size (576px) */
+
+@media (max-width: 576px) {
+
+    .card {
+        width: 32rem !important;
+    }
+}
+
 /*------------------------- large screens (laptops, 992px and up)---*/
 
 @media screen and (min-width: 992px) {
