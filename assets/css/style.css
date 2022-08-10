@@ -223,6 +223,10 @@ a {
 
 @media screen and (max-width: 480px) {
 
+    .card {
+        margin-top: 20px;
+    }
+
     .mapouter {
         width: 250px;
     }
@@ -234,18 +238,41 @@ a {
 
 /*------------------------- screen size (576px) */
 
+@media screen and (max-width: 576px) {
+
+    .card {
+        position: relative;
+        left: 80px !important;
+    }
+
+    .card-img-top {
+        width: 100%;
+        height: 40vw !important;
+    }
+
+    .mapouter {
+        width: 250px;
+    }
+
+    .gmap_canvas {
+        width: 250px;
+    }
+}
 
 
 /*------------------------- screen size (768px) */
 
-@media (min-width: 768px) {
-
+@media (max-width: 768px) {
+    .card {
+        position: relative;
+        left: 150px;
+    }
 }
 
 /*------------------------- large screens (laptops, 992px)---*/
 
-@media screen and (max-width: 992px) {
-
+@media screen and (min-width: 992px) {
+    
     .card-img-top {
         width: 100%;
         height: 30vw !important;
