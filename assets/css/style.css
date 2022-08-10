@@ -270,6 +270,11 @@ a {
 
 @media screen and (min-width: 992px) {
 
+    .card-img-top {
+        width: 100%;
+        height: 30vw;
+    }
+
     .mapouter {
         width: 450px;
     }
