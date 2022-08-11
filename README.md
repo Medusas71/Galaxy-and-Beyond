@@ -16,55 +16,54 @@
 
 - [GALAXY AND BEYOND](#galaxy-and-beyond)
 - [Table of Contents](#table-of-contents)
-  - [## Description](#-description)
-  - [## User Experience (UX)](#-user-experience-ux)
-  - [## User Stories](#-user-stories)
-    - [First Time Customer Goals](#first-time-customer-goals)
-  - [## 5 Planes](#-5-planes)
-  - [### 1. Strategy](#-1-strategy)
-  - [### 2. Scope](#-2-scope)
-  - [### 3. Structure](#-3-structure)
-  - [### 4. Skeleton](#-4-skeleton)
-  - [### 5. Surface](#-5-surface)
-  - [## Colour Scheme](#-colour-scheme)
-  - [## Typography](#-typography)
-  - [## Imagery](#-imagery)
-  - [## Features](#-features)
-  - [## Technologies Used](#-technologies-used)
-  - [## Testing](#-testing)
-  - [## Lessons Learned](#-lessons-learned)
-  - [## Deployment](#-deployment)
-  - [## Credits](#-credits)
-  - [## Media](#-media)
-  - [## Acknowledgements](#-acknowledgements)
+  - [Description](#description)
+  - [User Experience (UX)](#user-experience-ux)
+  - [User Stories](#user-stories)
+  - [5 Planes](#5-planes)
+  - [1. Strategy](#1-strategy)
+  - [2. Scope](#2-scope)
+  - [3. Structure](#3-structure)
+  - [4. Skeleton](#4-skeleton)
+  - [5. Surface](#5-surface)
+  - [Colour Scheme](#colour-scheme)
+  - [Typography](#typography)
+  - [Imagery](#imagery)
+  - [Features](#features)
+  - [Technologies Used](#technologies-used)
+  - [Testing](#testing)
+  - [Lessons Learned](#lessons-learned)
+  - [Deployment](#deployment)
+  - [Credits](#credits)
+  - [Media](#media)
+  - [Acknowledgements](#acknowledgements)
 
 <!-- /Markdown TOC -->
 </details>
 
-## Description
+Description
 ---
 
 [Back to Table of Contents](#table-of-contents)
 
-## User Experience (UX)
+User Experience (UX)
 ---
 
-## User Stories
+User Stories
 ---  
 
-### First Time Customer Goals
+First-Time Customer Goals
 
 [Back to Table of Contents](#table-of-contents)
 
-## 5 Planes
+5 Planes
 ---
 
-### 1. Strategy
+1. Strategy
 ---
 
 The purpose of this project is to create an e-commerce site where users can purchase holistic products through a secure checkout and view what holistic services are available.
 
-### 2. Scope
+2. Scope
 ---
 
 The features of this project will include:
@@ -78,20 +77,20 @@ The features of this project will include:
   * purchase products through a secure checkout
   * have the site owner add, edit and delete products
 
-### 3. Structure
+3. Structure
 ---
 
-### 4. Skeleton
+4. Skeleton
 ---
 
 The [wireframes](./static/documents/wireframes/grounded-earth-holistics.pdf) have been created using [Balsamiq](https://balsamiq.com) and were created for Desktop, Tablet and Phone. 
 
 Here are the individual wireframes:
 
-### 5. Surface 
+5. Surface 
 ---
 
-## Colour Scheme
+Colour Scheme
 ---
 
 ![4 Colours]()
@@ -102,17 +101,17 @@ Colours were displayed using [Coolors]().
 ![WebAIM Contrast Checker]() <-- fill in links
 ![WebAIM Contrast Checker]() <-- fill in links
 
-## Typography
+Typography
 ---
 
 * The fonts were sourced from [Google Fonts](https://fonts.google.com/).
 
-## Imagery
+Imagery
 ---
 
 [Back to Table of Contents](#table-of-contents)
 
-## Features
+Features
 ---
 
 **Current Features**
@@ -120,7 +119,7 @@ Colours were displayed using [Coolors]().
 **Future Features to implement**
 
 [Back to Table of Contents](#table-of-contents)
-## Technologies Used
+Technologies Used
 ---
 
 **Languages**
@@ -157,21 +156,21 @@ Colours were displayed using [Coolors]().
 
 [Back to Table of Contents](#table-of-contents)
 
-## Testing
+Testing
 ---
 
 [See Testing.md for testing information](TESTING.md)
 
 [Back to Table of Contents](#table-of-contents)
 
-## Lessons Learned
+Lessons Learned
 ---
 
 (add new lessons learned for each of us and together)
 
 [Back to Table of Contents](#table-of-contents)
 
-## Deployment
+Deployment
 ---
 
 The code for this website was written in [Gitpod](https://www.gitpod.io/), pushed to [GitHub](https://github.com/) and was deployed using [Heroku](https://www.heroku.com/) <--- (change for GitHub pages).
@@ -196,7 +195,7 @@ To do this:
 
 [Back to Table of Contents](#table-of-contents)
 
-## Credits
+Credits
 ---
 
 Code
@@ -209,10 +208,10 @@ Content
 * Majority of the content was taken from the original [Grounded Earth Holistics website](https://www.groundedearthholistics.com.au/) 
 with permission from the business to use their website for my project
 
-## Media
+Media
 ---
 
-## Acknowledgements
+Acknowledgements
 ---
 
 [Back to Table of Contents](#table-of-contents)
