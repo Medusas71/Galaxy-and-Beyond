@@ -281,10 +281,6 @@ a {
 
 @media (min-width: 768px) {
 
-    .space-shuttle {
-        display: none;
-    }
-
     .card {
         position: relative;
         left: 150px;
