@@ -256,15 +256,6 @@ footer {
         display: none;
     }
 
-    .card {
-        position: relative;
-        left: 80px !important;
-    }
-
-    .card-img-top {
-        width: 100%;
-        height: 40vw !important;
-    }
 
     .mapouter {
         width: 540px;
@@ -278,24 +269,12 @@ footer {
 
 /*------------------------- screen size (768px) */
 
-@media (min-width: 768px) {
-
-    .card {
-        position: relative;
-        left: 150px;
-    }
-}
-
 @media (max-width: 768px) {
 
     .space-shuttle {
         display: none;
     }
 
-    .card {
-        position: relative;
-        left: 150px;
-    }
 
     .mapouter {
         width: 230px;
@@ -313,17 +292,7 @@ footer {
     .navbar-header {
         margin-top: 80px;
     }
-
-    .card {
-        position: relative;
-        left: 0;
-    }
     
-    .card-img-top {
-        width: 100%;
-        height: 30vw !important;
-    }
-
     .mapouter {
         width: 450px;
     }
@@ -337,16 +306,6 @@ footer {
 
 @media (min-width: 1200px) {
 
-    .card {
-        width: 22rem !important;
-        margin-top: 20px;
-    }
-
-    .card-img-top {
-        width: 100%;
-        height: 28vw;
-    }
-
     .mapouter {
         width: 450px;
     }
@@ -359,11 +318,6 @@ footer {
 /*------------------------- large screens (laptops, 1400px)---*/
 
 @media (min-width: 1400px) {
-
-    .card-img-top {
-        width: 100%;
-        height: 15vw !important;
-    }
 
     .mapouter {
         width: 450px;
