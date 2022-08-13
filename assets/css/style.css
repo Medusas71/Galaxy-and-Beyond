@@ -1,7 +1,9 @@
+/* Global Settings */
+
 body {
     background: black url('http://fc01.deviantart.net/fs71/f/2012/160/b/9/stars_by_paulinemoss-d52un4e.jpg');
     animation: stars 205s linear alternate;
-    /* Global Settings */
+    
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -55,7 +57,7 @@ body {
 }
 
 .navbar {
-    border-bottom: 3px #000 solid;
+    border-bottom: 3px #787167 solid;
 }
 
 .navbar-header {
@@ -95,7 +97,7 @@ body {
 .nav-link {
     background-color: #000;
     color: #fff;
-    border: 3px solid #000;
+    border: 3px solid #787167;
 }
 
 .fa-solid.fa-shuttle-space {
@@ -164,7 +166,7 @@ footer {
     background: url('../images/stary-sky.jpg') center center / cover no-repeat;
     background-color: #030406;
     display: flex;
-    border-top: 3px #000 solid;
+    border-top: 3px #787167 solid;
 }
 
 .footer-row {
