@@ -158,10 +158,6 @@ footer {
     margin-top: auto;
 }
 
-.footer-container {
-    width: 100%;
-}
-
 .footer-background {
     background: url('../images/stary-sky.jpg') center center / cover no-repeat;
     background-color: #030406;
@@ -174,18 +170,8 @@ footer {
     text-align: center;
 }
 
-a {
-    color: #fff;
-}
-
 .footer-button-style {
-    font-style: italic;
-    font-size: 16px;
-    font-weight: 700;
-    letter-spacing: 1px;
-    margin: auto;
-    width: 27%;
-    text-decoration: none;
+    display: inline-block;
 }
 
 .copyright-style p {
