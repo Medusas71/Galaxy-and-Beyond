@@ -3,7 +3,6 @@
 body {
     background: black url('http://fc01.deviantart.net/fs71/f/2012/160/b/9/stars_by_paulinemoss-d52un4e.jpg');
     animation: stars 205s linear alternate;
-    
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -97,7 +96,7 @@ body {
 .nav-link {
     background-color: #000;
     color: #fff;
-    border: 3px solid #787167;
+    border: 3px #787167 solid;
 }
 
 .fa-solid.fa-shuttle-space {
@@ -112,7 +111,7 @@ body {
     margin: 10px;
     /* filter: drop-shadow(0.3rem 0.3rem 2rem rgba(38, 83, 132, 1)); */
     box-shadow: 0.3rem 0.3rem 2rem rgba(38, 83, 132, 1), 0.3rem 0.3rem 2rem rgba(123, 39, 44, 1);
-    border: 3px solid #000;
+    border: 3px #787167 solid;
 }
 
 .card-title {
@@ -121,7 +120,7 @@ body {
     padding-bottom: 5px;
     text-align: center;
     text-transform: uppercase;
-    box-shadow: 0 0.3rem 0 0 rgba(44, 53, 49, 1);
+    box-shadow: 0 0.3rem 0 0 #787167;
 }
 
 /* facts section */
@@ -169,6 +168,14 @@ footer {
 
 .footer-button-style {
     display: inline-block;
+    margin-top: 10px;
+}
+
+.copyright-style {
+    background-color: #000;
+    width: 250px;
+    margin-top: 10px;
+    border: 3px #787167 solid;
 }
 
 .copyright-style p {
@@ -204,6 +211,13 @@ footer {
 
 /*------------------------- media queries */
 
+@media (max-width: 320px) {
+    
+    .copyright-style {
+        margin-left: 30px !important;
+    }
+}
+
 /*------------------------- small devices (up to 480px) */
 
 @media screen and (max-width: 480px) {
@@ -219,6 +233,18 @@ footer {
     .card {
         margin-top: 20px;
     }
+
+    .copyright-style {
+        margin-left: 110px;
+    }
+
+    .mapouter {
+        width: 300px;
+    }
+
+    .gmap_canvas {
+        width: 300px !important;
+    }
 }
 
 /*------------------------- screen size (576px) */
@@ -229,15 +255,6 @@ footer {
         display: none;
     }
 
-    .card {
-        position: relative;
-        left: 80px !important;
-    }
-
-    .card-img-top {
-        width: 100%;
-        height: 40vw !important;
-    }
 
     .mapouter {
         width: 540px;
@@ -251,32 +268,12 @@ footer {
 
 /*------------------------- screen size (768px) */
 
-@media (min-width: 768px) {
-
-    .card {
-        position: relative;
-        left: 150px;
-    }
-
-    .mapouter {
-        width: 230px;
-    }
-
-    .gmap_canvas {
-        width: 230px;
-    }
-}
-
 @media (max-width: 768px) {
 
     .space-shuttle {
         display: none;
     }
 
-    .card {
-        position: relative;
-        left: 150px;
-    }
 
     .mapouter {
         width: 230px;
@@ -294,17 +291,7 @@ footer {
     .navbar-header {
         margin-top: 80px;
     }
-
-    .card {
-        position: relative;
-        left: 0;
-    }
     
-    .card-img-top {
-        width: 100%;
-        height: 30vw !important;
-    }
-
     .mapouter {
         width: 450px;
     }
@@ -318,16 +305,6 @@ footer {
 
 @media (min-width: 1200px) {
 
-    .card {
-        width: 22rem !important;
-        margin-top: 20px;
-    }
-
-    .card-img-top {
-        width: 100%;
-        height: 28vw;
-    }
-
     .mapouter {
         width: 450px;
     }
@@ -340,11 +317,6 @@ footer {
 /*------------------------- large screens (laptops, 1400px)---*/
 
 @media (min-width: 1400px) {
-
-    .card-img-top {
-        width: 100%;
-        height: 15vw !important;
-    }
 
     .mapouter {
         width: 450px;
