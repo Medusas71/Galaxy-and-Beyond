@@ -65,10 +65,11 @@ body {
 
 .navbar-brand {
     color: #fff;
-    font-size: 2rem;
-    padding: 20px;
+    font-size: 32px;
+    padding: 8px;
     float: none;
     text-transform: uppercase;
+    background-color: #000;
 }
 
 .navbar-toggler {
