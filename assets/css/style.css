@@ -12,9 +12,7 @@ body {
 
 /* space shuttle animation */
 #slide {
-    position: absolute;
     bottom: 30px;
-    left: -600px;
     width: 150px;
     -webkit-animation: slide 1s forwards;
     -webkit-animation-delay: 2s;
@@ -61,13 +59,13 @@ body {
 
 .navbar-header {
     text-align: center;
+    width: 13%;
 }
 
 .navbar-brand {
     color: #fff;
     font-size: 32px;
     padding: 8px;
-    float: none;
     text-transform: uppercase;
     background-color: #000;
 }
@@ -107,6 +105,10 @@ body {
 
 /* cards */
 
+.card-margin {
+    margin: 50px;
+}
+
 .card {
     background-color: #000;
     margin: 10px;
@@ -142,10 +144,11 @@ body {
 .facts-row {
     color: #fff;
     text-align: center;
+    margin-right: 50px;
+    margin-left: 50px;
 }
 
 .facts-container {
-    width: 100%;
     margin-bottom: 30px;
 }
 
