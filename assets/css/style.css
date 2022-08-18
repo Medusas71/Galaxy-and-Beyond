@@ -59,7 +59,7 @@ body {
 
 .navbar-header {
     text-align: center;
-    width: 13%;
+    margin-left: 100px;
 }
 
 .navbar-brand {
@@ -68,6 +68,7 @@ body {
     padding: 8px;
     text-transform: uppercase;
     background-color: #000;
+    margin: 0;
 }
 
 .navbar-toggler {
@@ -177,9 +178,10 @@ footer {
 
 .copyright-style {
     background-color: #000;
-    width: 250px;
     margin-top: 10px;
+    margin-bottom: 20px;
     border: 3px #787167 solid;
+    display: inline-block;
 }
 
 .copyright-style p {
@@ -195,32 +197,18 @@ footer {
 /* https://google-map-generator.com/ */
 
 .mapouter {
-    position: relative;
-    text-align: center;
-    width: 450px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .gmap_canvas {
     overflow: hidden;
     background: none !important;
-    width: 750px;
     padding: 20px;
-    float: left;
-}
-
-.iframe-size {
-    width: 650px;
-    height: 200px;
 }
 
 /*------------------------- media queries */
-
-@media (max-width: 320px) {
-    
-    .copyright-style {
-        margin-left: 30px !important;
-    }
-}
 
 /*------------------------- small devices (up to 480px) */
 
@@ -230,103 +218,16 @@ footer {
         font-size: 1.1rem;
     }
 
-    .space-shuttle {
-        display: none;
-    }
-
     .card {
         margin-top: 20px;
     }
-
-    .copyright-style {
-        margin-left: 110px;
-    }
-
-    .mapouter {
-        width: 300px;
-    }
-
-    .gmap_canvas {
-        width: 300px !important;
-    }
 }
-
-/*------------------------- screen size (576px) */
-
-@media screen and (max-width: 576px) {
-
-    .space-shuttle {
-        display: none;
-    }
-
-
-    .mapouter {
-        width: 540px;
-    }
-
-    .gmap_canvas {
-        width: 440px !important;
-    }
-}
-
 
 /*------------------------- screen size (768px) */
 
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
 
     .space-shuttle {
         display: none;
-    }
-
-
-    .mapouter {
-        width: 230px;
-    }
-
-    .gmap_canvas {
-        width: 230px;
-    }
-}
-
-/*------------------------- large screens (laptops, 992px)---*/
-
-@media (min-width: 992px) {
-
-    .navbar-header {
-        margin-top: 80px;
-    }
-    
-    .mapouter {
-        width: 450px;
-    }
-
-    .gmap_canvas {
-        width: 450px;
-    }
-}
-
-/*------------------------- large screens (laptops, 1200px)---*/
-
-@media (min-width: 1200px) {
-
-    .mapouter {
-        width: 450px;
-    }
-
-    .gmap_canvas {
-        width: 450px;
-    }
-}
-
-/*------------------------- large screens (laptops, 1400px)---*/
-
-@media (min-width: 1400px) {
-
-    .mapouter {
-        width: 450px;
-    }
-
-    .gmap_canvas {
-        width: 450px;
     }
 }
