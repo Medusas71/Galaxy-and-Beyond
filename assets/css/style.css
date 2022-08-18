@@ -59,7 +59,7 @@ body {
 
 .navbar-header {
     text-align: center;
-    margin-left: 100px;
+    margin-left: 0;
 }
 
 .navbar-brand {
@@ -228,7 +228,16 @@ footer {
     }
 }
 
-/*------------------------- screen size (768px) */
+/*------------------------- small devices (landscape, 576px and up) */
+
+@media screen and (min-width: 576px) {
+
+.navbar-header {
+    margin-left: 100px;
+    }
+}
+
+/*------------------------- medium devices (tablets, up to 768px) */
 
 @media screen and (max-width: 768px) {
 
