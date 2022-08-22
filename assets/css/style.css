@@ -71,11 +71,6 @@ body {
     margin: 0;
 }
 
-/* .navbar-toggler {
-    border: 3px blue solid;
-    done this so we can see the hamburger button
-} */
-
 .navbar-toggler i {
     color: #fff;
 }
@@ -106,11 +101,6 @@ body {
     color: #fff;
     border: 3px #787167 solid;
 }
-
-/* .fa-solid.fa-shuttle-space {
-    color: #000;
-    margin-left: 40px;
-} */
 
 /* cards */
 
