@@ -12,9 +12,7 @@ body {
 
 /* space shuttle animation */
 #slide {
-    position: absolute;
     bottom: 30px;
-    left: -600px;
     width: 150px;
     -webkit-animation: slide 1s forwards;
     -webkit-animation-delay: 2s;
@@ -61,19 +59,24 @@ body {
 
 .navbar-header {
     text-align: center;
+    margin-left: 0;
 }
 
 .navbar-brand {
     color: #fff;
-    font-size: 2rem;
-    padding: 20px;
-    float: none;
+    font-size: 32px;
+    padding: 8px;
     text-transform: uppercase;
+    background-color: #000;
+    margin: 0;
 }
 
-.navbar-toggler {
-    border: 3px blue solid;
-    /* done this so we can see the hamburger button */
+.navbar-toggler i {
+    color: #fff;
+}
+
+.navbar-toggler:focus {
+    box-shadow: 0;
 }
 
 .navbar-nav {
@@ -99,12 +102,11 @@ body {
     border: 3px #787167 solid;
 }
 
-.fa-solid.fa-shuttle-space {
-    color: #000;
-    margin-left: 40px;
-}
-
 /* cards */
+
+.card-margin {
+    margin: 50px;
+}
 
 .card {
     background-color: #000;
@@ -133,7 +135,7 @@ body {
 
 .facts-header {
     color: #fff;
-    margin: 15px;
+    margin-bottom: 15px;
     text-align: center;
     text-transform: uppercase;
 }
@@ -141,10 +143,11 @@ body {
 .facts-row {
     color: #fff;
     text-align: center;
+    margin-right: 10px;
+    margin-left: 10px;
 }
 
 .facts-container {
-    width: 100%;
     margin-bottom: 30px;
 }
 
@@ -173,9 +176,11 @@ footer {
 
 .copyright-style {
     background-color: #000;
-    width: 250px;
     margin-top: 10px;
+    margin-bottom: 20px;
     border: 3px #787167 solid;
+    display: inline-block;
+    padding: 5px;
 }
 
 .copyright-style p {
@@ -191,32 +196,18 @@ footer {
 /* https://google-map-generator.com/ */
 
 .mapouter {
-    position: relative;
-    text-align: center;
-    width: 450px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .gmap_canvas {
     overflow: hidden;
     background: none !important;
-    width: 750px;
     padding: 20px;
-    float: left;
-}
-
-.iframe-size {
-    width: 650px;
-    height: 200px;
 }
 
 /*------------------------- media queries */
-
-@media (max-width: 320px) {
-    
-    .copyright-style {
-        margin-left: 30px !important;
-    }
-}
 
 /*------------------------- small devices (up to 480px) */
 
@@ -226,103 +217,29 @@ footer {
         font-size: 1.1rem;
     }
 
-    .space-shuttle {
-        display: none;
-    }
-
     .card {
         margin-top: 20px;
     }
 
-    .copyright-style {
-        margin-left: 110px;
-    }
-
-    .mapouter {
-        width: 300px;
-    }
-
-    .gmap_canvas {
-        width: 300px !important;
+    .card-margin {
+        margin: 30px;
     }
 }
 
-/*------------------------- screen size (576px) */
+/*------------------------- small devices (landscape, 576px and up) */
 
-@media screen and (max-width: 576px) {
+@media screen and (min-width: 576px) {
+
+.navbar-header {
+    margin-left: 100px;
+    }
+}
+
+/*------------------------- medium devices (tablets, up to 768px) */
+
+@media screen and (max-width: 768px) {
 
     .space-shuttle {
         display: none;
-    }
-
-
-    .mapouter {
-        width: 540px;
-    }
-
-    .gmap_canvas {
-        width: 440px !important;
-    }
-}
-
-
-/*------------------------- screen size (768px) */
-
-@media (max-width: 768px) {
-
-    .space-shuttle {
-        display: none;
-    }
-
-
-    .mapouter {
-        width: 230px;
-    }
-
-    .gmap_canvas {
-        width: 230px;
-    }
-}
-
-/*------------------------- large screens (laptops, 992px)---*/
-
-@media (min-width: 992px) {
-
-    .navbar-header {
-        margin-top: 80px;
-    }
-    
-    .mapouter {
-        width: 450px;
-    }
-
-    .gmap_canvas {
-        width: 450px;
-    }
-}
-
-/*------------------------- large screens (laptops, 1200px)---*/
-
-@media (min-width: 1200px) {
-
-    .mapouter {
-        width: 450px;
-    }
-
-    .gmap_canvas {
-        width: 450px;
-    }
-}
-
-/*------------------------- large screens (laptops, 1400px)---*/
-
-@media (min-width: 1400px) {
-
-    .mapouter {
-        width: 450px;
-    }
-
-    .gmap_canvas {
-        width: 450px;
     }
 }
