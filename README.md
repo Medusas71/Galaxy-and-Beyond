@@ -1,87 +1,105 @@
-# GALAXY AND BEYOND
+<h1 align="center"> GALAXY AND BEYOND</h1>
 
 ![GitHub contributors](https://img.shields.io/github/contributors/Medusas71/Galaxy-and-Beyond)
 ![GitHub last commit](https://img.shields.io/github/last-commit/Medusas71/Galaxy-and-Beyond)
 ![GitHub language count](https://img.shields.io/github/languages/count/Medusas71/Galaxy-and-Beyond)
 ![GitHub top language](https://img.shields.io/github/languages/top/Medusas71/Galaxy-and-Beyond)
 
-[View the deployed Grounded Earth Holistics](https://grounded-earth-holistics.herokuapp.com/) <-- update deployed url link
+[View the deployed Galaxy and Beyond](https://grounded-earth-holistics.herokuapp.com/) <-- update deployed url link
 
 **Please note: To open any links in this document in a new browser tab, press 'CTRL + Click'.**
 
+<a id=#table-of-contents></a>
 # Table of Contents
 <details open>
 <summary><b>(click to expand or hide)</b></summary>
 <!-- Markdown TOC -->
 
-- [GALAXY AND BEYOND](#galaxy-and-beyond)
-- [Table of Contents](#table-of-contents)
-  - [Description](#description)
-  - [User Experience (UX)](#user-experience-ux)
-  - [User Stories](#user-stories)
-  - [5 Planes](#5-planes)
-  - [1. Strategy](#1-strategy)
-  - [2. Scope](#2-scope)
-  - [3. Structure](#3-structure)
-  - [4. Skeleton](#4-skeleton)
-  - [5. Surface](#5-surface)
-  - [Colour Scheme](#colour-scheme)
-  - [Typography](#typography)
-  - [Imagery](#imagery)
-  - [Features](#features)
-  - [Technologies Used](#technologies-used)
-  - [Testing](#testing)
-  - [Lessons Learned](#lessons-learned)
-  - [Deployment](#deployment)
-  - [Credits](#credits)
-  - [Media](#media)
-  - [Acknowledgements](#acknowledgements)
+1. [Description](#description)
+2. [User Experience (UX)](#user-experience-ux)
+    * [User Stories](#user-stories)
+    * [5 Planes](#5-planes)
+      1. [Strategy](#strategy)
+      2. [Scope](#scope)
+      3. [Structure](#structure)
+      4. [Skeleton](#skeleton)
+      5. [Surface](#surface)
+          * [Colour Scheme](#colour-scheme)
+          * [Typography](#typography)
+          * [Imagery](#imagery)
+3. [Features](#features)
+4. [Technologies Used](#technologies-used)
+5. [Testing](#testing)
+6. [Lessons Learned](#lessons-learned)
+7. [Deployment](#deployment)
+8. [Credits](#credits)
+    * [Code](#code)
+    * [Content](#content)
+    * [Media](#media)
+    * [Acknowledgements](#acknowledgements)
 
 <!-- /Markdown TOC -->
 </details>
 
-Description
----
+<a id="description"></a>
+# Description 
+
+Hi I'm [Megan](https://github.com/Medusas71) and I'm [Manni](https://github.com/manni8436) and we are part of the Nerd Alert Team (logo). We are collaborating together to expand our coding experience.
+
+Our first project, Galaxy and Beyond is a website all about Planets, Galaxies and the History of Space. Space is something we are both curious about. It is fascinating to see all the stars in the sky and know there are other planets in our solar system.
+
+We hope you enjoy our site and learn something new.
 
 [Back to Table of Contents](#table-of-contents)
 
-User Experience (UX)
----
+<a id="user-experience-(ux)"></a>
+# User Experience (UX)
 
-User Stories
----  
+<a id="user-stories"></a>
+## User Stories  
 
-First-Time Customer Goals
+First Time Customer Goals
+
+* As a first time customer to the website, I would like to:
+  * Look at the different planets and their relevant information on each planet
+  * Find out more information regarding Galaxies
+  * Look at the history of space
+  * Find out some Fascinating Facts regarding Space, Planets and Galaxies
+  * Be able to contact the owners of the website
+  * Find out more about the people that created the website and why they created the website
 
 [Back to Table of Contents](#table-of-contents)
 
-5 Planes
----
+<a id="5-planes"></a>
+## 5 Planes
 
-1. Strategy
----
+<a id="strategy"></a>
+### 1. Strategy
 
-The purpose of this project is to create an e-commerce site where users can purchase holistic products through a secure checkout and view what holistic services are available.
+The purpose of this project is to create a site where users can learn about Planets, Galaxies and the History of Space.
 
-2. Scope
----
+<a id="scope"></a>
+### 2. Scope
 
 The features of this project will include:
 
 * The ability to:
-  * search for products
-  * view products
-  * view services
-  * register to save their personal information
-  * log in and out
-  * purchase products through a secure checkout
-  * have the site owner add, edit and delete products
+  * view planets
+  * find out information regarding planets
+  * view galaxies
+  * find out information regarding galaxies
+  * view the history of space
+  * find out information regarding the history of space
+  * be able to contact the developers of the site
+  * find out more about the developers of the site and why they chose space for their website
 
-3. Structure
----
+<a id="structure"></a>
+### 3. Structure
 
-4. Skeleton
----
+The information is grouped logically for all users. The Interaction Design (IXD) will be consistent between pages where the navigation bar is fixed and tailored to have the priority items displayed first at the top of the screen. The footer will also be consistent between pages and the footer is fixed at the bottom of the page. The site will be consistent with what users expect from a space website.
+
+<a id="skeleton"></a>
+### 4. Skeleton
 
 The [wireframes](./static/documents/wireframes/grounded-earth-holistics.pdf) have been created using [Balsamiq](https://balsamiq.com) and were created for Desktop, Tablet and Phone. 
 
