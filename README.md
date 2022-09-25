@@ -101,9 +101,19 @@ The information is grouped logically for all users. The Interaction Design (IXD)
 <a id="skeleton"></a>
 ### 4. Skeleton
 
-The [wireframes](./static/documents/wireframes/grounded-earth-holistics.pdf) have been created using [Balsamiq](https://balsamiq.com) and were created for Desktop, Tablet and Phone. 
+The [wireframes](./assets/documents/wireframes/galaxies-and-beyond.pdf) have been created using [Balsamiq](https://balsamiq.com) and were created for Desktop, Tablet and Phone. 
 
 Here are the individual wireframes:
+
+* [Home Page Wireframe](/assets/images/readme-images/wireframes/home-page.png)
+* [Planets Wireframe](/assets/images/readme-images/wireframes/planets.png)
+* [Individual Planets Wireframe](/assets/images/readme-images/wireframes/individual-planet.png)
+* [Galaxies Wireframe](/assets/images/readme-images/wireframes/galaxies.png)
+* [Individual Galaxy Wireframe](/assets/images/readme-images/wireframes/individual-galaxy.png)
+* [History Wireframe](/assets/images/readme-images/wireframes/history.png)
+* [About Wireframe](/assets/images/readme-images/wireframes/about-us.png)
+* [Contact Us Wireframe](/assets/images/readme-images/wireframes/contact-us.png)
+* [404 Error Wireframe](/assets/images/readme-images/wireframes/404-error.png)
 
 5. Surface 
 ---
