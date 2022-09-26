@@ -171,25 +171,23 @@ Technologies Used
 
 **Programs and Resources**
 
-1. [Am I Responsive](https://ui.dev/amiresponsive) - to create a Home Page image on each device for use in the Readme file
-2. [Autoprefixer CSS Online](https://autoprefixer.github.io/) - to ensure all vendor prefixes were included in CSS
-3. [Balsamiq](https://balsamiq.com/) - wireframes
-4. [Coolors](https://coolors.co/) - to display colour palette
-5. [Favicon Generator](https://favicon.io/emoji-favicons/) - to generate the favicon
-6. [Font Awesome](https://fontawesome.com/v5/search) - for their icons
-7. [Git](https://git-scm.com/) - version control
-8. [GitHub](https://github.com/) - used to store the project files
-9. [Gitpod](https://www.gitpod.io/) - IDE
-10. [Google Fonts](https://fonts.google.com/) - typography
-11. [Lighthouse](https://developer.chrome.com/docs/lighthouse/overview/) - to check for issues on all pages
-12. [Scheme Color](https://www.schemecolor.com) - for ideas on earthy colours
-13. [Slack](https://slack.com/) - main source of assistance from other students, developers and documents/resources
-14. [Snagit](https://www.techsmith.com/screen-capture.html) - screen capture and resizing images
-15. [Stripe](https://stripe.com/au) - for secure payments in the checkout
-16. [TinyPNG](https://tinypng.com/) - efficient compression of images for the site
-17. [W3Schools](https://www.w3schools.com/) - to assist with the code
-18. [Wave](https://wave.webaim.org/) - to ensure the content was accessible
-18. [WebAIM](https://webaim.org/resources/contrastchecker/) - web accessibility contrast checker
+<!-- 1. [Am I Responsive](https://ui.dev/amiresponsive) - to create a Home Page image on each device for use in the Readme file -->
+<!-- 1. [Autoprefixer CSS Online](https://autoprefixer.github.io/) - to ensure all vendor prefixes were included in CSS -->
+1. [Balsamiq](https://balsamiq.com/) - wireframes
+1. [Coolors](https://coolors.co/) - to display colour palette
+<!-- 1. [Favicon Generator](https://favicon.io/emoji-favicons/) - to generate the favicon -->
+<!-- 1. [Font Awesome](https://fontawesome.com/v5/search) - for their icons -->
+1. [Git](https://git-scm.com/) - version control
+1. [GitHub](https://github.com/) - used to store the project files
+1. [Gitpod](https://www.gitpod.io/) - IDE
+1. [Google Fonts](https://fonts.google.com/) - typography
+<!-- 1. [Lighthouse](https://developer.chrome.com/docs/lighthouse/overview/) - to check for issues on all pages -->
+1. [Slack](https://slack.com/) - main source of assistance from other students, developers and documents/resources
+1. [Snagit](https://www.techsmith.com/screen-capture.html) - screen capture and resizing images
+1. [TinyPNG](https://tinypng.com/) - efficient compression of images for the site
+1. [W3Schools](https://www.w3schools.com/) - to assist with the code
+<!-- 1. [Wave](https://wave.webaim.org/) - to ensure the content was accessible -->
+1. [WebAIM](https://webaim.org/resources/contrastchecker/) - web accessibility contrast checker
 
 [Back to Table of Contents](#table-of-contents)
 
