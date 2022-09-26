@@ -115,19 +115,23 @@ Here are the individual wireframes:
 * [Contact Us Wireframe](/assets/images/readme-images/wireframes/contact-us.png)
 * [404 Error Wireframe](/assets/images/readme-images/wireframes/404-error.png)
 
-5. Surface 
----
+<a id="surface"></a>
+### 5. Surface 
 
 Colour Scheme
----
 
-![4 Colours]()
-Colours were displayed using [Coolors]().
+* The colour scheme represents space, by using a background colour of black #000 on all links and white #fff for all text.
+* Originally we used the standard blue for the hover colour, but that did not pass accessibility, so it was changed to a blue crayola #1A71F4.
+* A nickel colour of #787167 is used around the menu links and throughout each page at the bottom of the header, top of the footer and around each card.
+* The header and footer have the same background image - see Imagery.
+* The body of each page has the same background image - see Imagery.
+
+![4 Colours](assets/images/readme-images/website-colours.png)
+Colours were displayed using [Coolors](https://coolors.co/ffffff-000000-1a71f4-787167).
 
 * The colours were checked through [WebAIM](https://webaim.org/resources/contrastchecker/) to ensure the final colours were accessible.
 
-![WebAIM Contrast Checker]() <-- fill in links
-![WebAIM Contrast Checker]() <-- fill in links
+![WebAIM Link Contrast Checker](assets/images/readme-images/webaim-link-contrast-checker.jpg)
 
 Typography
 ---
@@ -135,7 +139,11 @@ Typography
 * The fonts were sourced from [Google Fonts](https://fonts.google.com/).
 
 Imagery
----
+
+* The header and footer background both use a stary-sky image that was sourced from XXX? (insert link here).
+* Each page has a space shuttle in the header that slides in when navigating to any page. The space shuttle was sourced from XXX? (Insert link here)
+* The body background uses a star image that was sourced from http://fc01.deviantart.net/fs71/f/2012/160/b/9/stars_by_paulinemoss-d52un4e.jpg by a google search and an animation was added so the stars are constantly moving.
+* The 404 error page image was sourced from https://www.behance.net/gallery/123773233/Error-404-landing-page-template?tracking_source=search_projects_recommended%7C404%20oops by searching 404 Error Space in Google.
 
 [Back to Table of Contents](#table-of-contents)
 

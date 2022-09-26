@@ -102,6 +102,14 @@ body {
     border: 3px #787167 solid;
 }
 
+/* hover/active */
+
+a:hover,
+.nav-link:hover,
+.active {
+    color: #1A71F4;
+}
+
 /* cards */
 
 .card-margin {
@@ -159,7 +167,7 @@ footer {
 
 .footer-background {
     background: url('../images/stary-sky.jpg') center center / cover no-repeat;
-    background-color: #030406;
+    /* background-color: #030406; */
     display: flex;
     border-top: 3px #787167 solid;
 }
