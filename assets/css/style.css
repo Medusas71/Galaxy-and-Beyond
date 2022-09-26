@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Trispace:wght@200;500;700&display=swap');
+
 /* Global Settings */
 
 body {
@@ -65,6 +67,8 @@ body {
 .navbar-brand {
     color: #fff;
     font-size: 32px;
+    font-weight: 700;
+    font-family: "trispace", sans-serif;
     padding: 8px;
     text-transform: uppercase;
     background-color: #000;
@@ -99,6 +103,8 @@ body {
 .nav-link {
     background-color: #000;
     color: #fff;
+    font-weight: 500;
+    font-family: "trispace", sans-serif;
     border: 3px #787167 solid;
 }
 
@@ -130,6 +136,8 @@ a:hover,
     padding-bottom: 5px;
     text-align: center;
     text-transform: uppercase;
+    font-weight: 500;
+    font-family: "trispace", sans-serif;
     box-shadow: 0 0.3rem 0 0 #787167;
 }
 
@@ -139,11 +147,15 @@ a:hover,
     background-color: #000;
     text-align: justify;
     opacity: 0.7;
+    font-weight: 200;
+    font-family: "trispace", sans-serif;
 }
 
 .facts-header {
     color: #fff;
     margin-bottom: 15px;
+    font-weight: 500;
+    font-family: "trispace", sans-serif;
     text-align: center;
     text-transform: uppercase;
 }
@@ -186,6 +198,8 @@ footer {
     background-color: #000;
     margin-top: 10px;
     margin-bottom: 20px;
+    font-weight: 200;
+    font-family: "trispace", sans-serif;
     border: 3px #787167 solid;
     display: inline-block;
     padding: 5px;

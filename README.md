@@ -134,9 +134,10 @@ Colours were displayed using [Coolors](https://coolors.co/ffffff-000000-1a71f4-7
 ![WebAIM Link Contrast Checker](assets/images/readme-images/webaim-link-contrast-checker.jpg)
 
 Typography
----
 
 * The fonts were sourced from [Google Fonts](https://fonts.google.com/).
+* The Trispace font is the main font used throughout the whole website with sans-serif as the fallback font.
+* This font was chosen due to it being a 'space' font.
 
 Imagery
 
