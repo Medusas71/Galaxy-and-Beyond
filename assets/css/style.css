@@ -10,6 +10,24 @@ body {
     flex-direction: column;
 }
 
+h1, h2, h3 {
+    font-family: "trispace", sans-serif;
+    text-align: center;
+    color: #fff;
+    padding: 8px;
+}
+
+h2 {
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+h3 {
+    font-size: 28px;
+    font-weight: 500;
+}
+
 /* animation */
 
 /* space shuttle animation */
@@ -66,12 +84,11 @@ body {
 
 .navbar-brand {
     color: #fff;
-    font-size: 32px;
+    font-size: 36px;
     font-weight: 700;
     font-family: "trispace", sans-serif;
     padding: 8px;
     text-transform: uppercase;
-    background-color: #000;
     margin: 0;
 }
 
@@ -110,10 +127,12 @@ body {
 
 /* hover/active */
 
+a,
 a:hover,
 .nav-link:hover,
 .active {
     color: #1A71F4;
+    text-decoration: none;
 }
 
 /* cards */
@@ -171,6 +190,27 @@ a:hover,
     margin-bottom: 30px;
 }
 
+/* Planets */
+.planets {
+    color: #fff;
+    opacity: 0.7;
+    font-weight: 200;
+    font-family: "trispace", sans-serif;
+}
+
+.planet-card-text {
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    display: flex;
+}
+
+.text-align {
+    text-align: center;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
 /* Footer */
 
 footer {
@@ -179,7 +219,6 @@ footer {
 
 .footer-background {
     background: url('../images/stary-sky.jpg') center center / cover no-repeat;
-    /* background-color: #030406; */
     display: flex;
     border-top: 3px #787167 solid;
 }
@@ -206,7 +245,6 @@ footer {
 }
 
 .copyright-style p {
-    /* font-family: "Roboto", sans-serif; */
     font-size: 12px;
     letter-spacing: 1px;
     line-height: 0;
@@ -231,12 +269,16 @@ footer {
 
 /*------------------------- media queries */
 
+.navbar-brand {
+    font-size: 50px;
+}
+
 /*------------------------- small devices (up to 480px) */
 
 @media screen and (max-width: 480px) {
 
     .navbar-brand {
-        font-size: 1.1rem;
+        font-size: 24px;
     }
 
     .card {
@@ -252,9 +294,9 @@ footer {
 
 @media screen and (min-width: 576px) {
 
-.navbar-header {
+/* .navbar-header {
     margin-left: 100px;
-    }
+    } */
 }
 
 /*------------------------- medium devices (tablets, up to 768px) */
@@ -265,3 +307,24 @@ footer {
         display: none;
     }
 }
+
+/*------------------------- large devices (desktops, 992px and up) */
+
+@media screen and (min-width: 992px) {
+
+    .text-align {
+        text-align: justify;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+
+    .centre-text {
+        text-align: center;
+    }
+
+    .planet-card-text {
+        height: 200px;
+    }
+}
+
+/*------------------------- extra large devices (desktops, 1200px and up) */
