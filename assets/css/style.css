@@ -10,20 +10,20 @@ body {
     flex-direction: column;
 }
 
-h1, h2 {
+h1, h2, h3 {
     font-family: "trispace", sans-serif;
     text-align: center;
     color: #fff;
     padding: 8px;
 }
 
-h1 {
+h2 {
     font-size: 30px;
     font-weight: 700;
     text-transform: uppercase;
 }
 
-h2 {
+h3 {
     font-size: 28px;
     font-weight: 500;
 }
@@ -84,12 +84,11 @@ h2 {
 
 .navbar-brand {
     color: #fff;
-    font-size: 32px;
+    font-size: 36px;
     font-weight: 700;
     font-family: "trispace", sans-serif;
     padding: 8px;
     text-transform: uppercase;
-    /* background-color: #000; */
     margin: 0;
 }
 
@@ -202,7 +201,7 @@ a:hover,
 .planet-card-text {
     align-items: center;
     justify-content: center;
-    height: 150px;
+    height: 100px;
     display: flex;
 }
 
@@ -270,12 +269,16 @@ footer {
 
 /*------------------------- media queries */
 
+.navbar-brand {
+    font-size: 50px;
+}
+
 /*------------------------- small devices (up to 480px) */
 
 @media screen and (max-width: 480px) {
 
     .navbar-brand {
-        font-size: 1.1rem;
+        font-size: 24px;
     }
 
     .card {
@@ -291,9 +294,9 @@ footer {
 
 @media screen and (min-width: 576px) {
 
-.navbar-header {
+/* .navbar-header {
     margin-left: 100px;
-    }
+    } */
 }
 
 /*------------------------- medium devices (tablets, up to 768px) */
@@ -323,3 +326,5 @@ footer {
         height: 200px;
     }
 }
+
+/*------------------------- extra large devices (desktops, 1200px and up) */
