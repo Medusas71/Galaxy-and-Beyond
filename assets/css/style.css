@@ -269,10 +269,6 @@ footer {
 
 /*------------------------- media queries */
 
-.navbar-brand {
-    font-size: 50px;
-}
-
 /*------------------------- small devices (up to 480px) */
 
 @media screen and (max-width: 480px) {
@@ -288,15 +284,6 @@ footer {
     .card-margin {
         margin: 30px;
     }
-}
-
-/*------------------------- small devices (landscape, 576px and up) */
-
-@media screen and (min-width: 576px) {
-
-/* .navbar-header {
-    margin-left: 100px;
-    } */
 }
 
 /*------------------------- medium devices (tablets, up to 768px) */
@@ -328,3 +315,10 @@ footer {
 }
 
 /*------------------------- extra large devices (desktops, 1200px and up) */
+
+@media screen and (min-width: 1200px) {
+
+    .navbar-brand {
+        font-size: 50px;
+    }
+}
