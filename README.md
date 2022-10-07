@@ -41,6 +41,8 @@
 <!-- /Markdown TOC -->
 </details>
 
+![Final Website](insert image link here)
+
 <a id="description"></a>
 # Description 
 
@@ -118,7 +120,7 @@ Here are the individual wireframes:
 <a id="surface"></a>
 ### 5. Surface 
 
-Colour Scheme
+**Colour Scheme**
 
 * The colour scheme represents space, by using a background colour of black #000 on all links and white #fff for all text.
 * Originally we used the standard blue for the hover colour, but that did not pass accessibility, so it was changed to a blue crayola #1A71F4.
@@ -133,31 +135,35 @@ Colours were displayed using [Coolors](https://coolors.co/ffffff-000000-1a71f4-7
 
 ![WebAIM Link Contrast Checker](assets/images/readme-images/webaim-link-contrast-checker.jpg)
 
-Typography
+**Typography**
 
 * The fonts were sourced from [Google Fonts](https://fonts.google.com/).
 * The Trispace font is the main font used throughout the whole website with sans-serif as the fallback font.
 * This font was chosen due to it being a 'space' font.
 
-Imagery
+**Imagery**
 
 * The header and footer background both use a stary-sky image that was sourced from XXX? (insert link here).
 * Each page has a space shuttle in the header that slides in when navigating to any page. The space shuttle was sourced from XXX? (Insert link here)
 * The body background uses a star image that was sourced from http://fc01.deviantart.net/fs71/f/2012/160/b/9/stars_by_paulinemoss-d52un4e.jpg by a google search and an animation was added so the stars are constantly moving.
+* The planet images were sourced from https://solarsystem.nasa.gov/planets/overview/
 * The 404 error page image was sourced from https://www.behance.net/gallery/123773233/Error-404-landing-page-template?tracking_source=search_projects_recommended%7C404%20oops by searching 404 Error Space in Google.
 
 [Back to Table of Contents](#table-of-contents)
 
-Features
----
+<a id="features"></a>
+# Features
 
+<a id="current-features"></a>
 **Current Features**
 
+<a id="future-features"></a>
 **Future Features to implement**
 
 [Back to Table of Contents](#table-of-contents)
-Technologies Used
----
+
+<a id="technologies-used"></a>
+# Technologies Used
 
 **Languages**
 
@@ -174,8 +180,9 @@ Technologies Used
 <!-- 1. [Am I Responsive](https://ui.dev/amiresponsive) - to create a Home Page image on each device for use in the Readme file -->
 <!-- 1. [Autoprefixer CSS Online](https://autoprefixer.github.io/) - to ensure all vendor prefixes were included in CSS -->
 1. [Balsamiq](https://balsamiq.com/) - wireframes
+1. [Behance](https://www.behance.net/) - 404 error page
 1. [Coolors](https://coolors.co/) - to display colour palette
-<!-- 1. [Favicon Generator](https://favicon.io/emoji-favicons/) - to generate the favicon -->
+1. [Favicon Generator](https://favicon.io/emoji-favicons/) - to generate the favicon
 <!-- 1. [Font Awesome](https://fontawesome.com/v5/search) - for their icons -->
 1. [Git](https://git-scm.com/) - version control
 1. [GitHub](https://github.com/) - used to store the project files
@@ -185,28 +192,30 @@ Technologies Used
 1. [Slack](https://slack.com/) - main source of assistance from other students, developers and documents/resources
 1. [Snagit](https://www.techsmith.com/screen-capture.html) - screen capture and resizing images
 1. [TinyPNG](https://tinypng.com/) - efficient compression of images for the site
+<!-- 1. [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/) - to ensure there are no errors in the CSS code -->
+<!-- 1. [W3C Markup Validation Service](https://validator.w3.org/#validate_by_input) - to ensure there are no errors in the HTML code -->
 1. [W3Schools](https://www.w3schools.com/) - to assist with the code
 <!-- 1. [Wave](https://wave.webaim.org/) - to ensure the content was accessible -->
 1. [WebAIM](https://webaim.org/resources/contrastchecker/) - web accessibility contrast checker
 
 [Back to Table of Contents](#table-of-contents)
 
-Testing
----
+<a id="testing"></a>
+# Testing
 
 [See Testing.md for testing information](TESTING.md)
 
 [Back to Table of Contents](#table-of-contents)
 
-Lessons Learned
----
+<a id="lessons-learned"></a>  
+# Lessons Learned 
 
 (add new lessons learned for each of us and together)
 
 [Back to Table of Contents](#table-of-contents)
 
-Deployment
----
+<a id="deployment"></a>
+# Deployment 
 
 The code for this website was written in [Gitpod](https://www.gitpod.io/), pushed to [GitHub](https://github.com/) and was deployed using [Heroku](https://www.heroku.com/) <--- (change for GitHub pages).
 
@@ -230,23 +239,19 @@ To do this:
 
 [Back to Table of Contents](#table-of-contents)
 
-Credits
----
+<a id="credits"></a>
+# Credits  
 
-Code
+**Code**
 
-* A large portion of the code was developed following the Code Institute's Boutique Ado walkthrough
-* I followed [MDB - mdbootstrap](https://mdbootstrap.com/how-to/bootstrap/footer-add/) on how to add a footer
+**Content**
 
-Content  
+* The content was sourced from the [NASA Solar System website](https://solarsystem.nasa.gov/)
 
-* Majority of the content was taken from the original [Grounded Earth Holistics website](https://www.groundedearthholistics.com.au/) 
-with permission from the business to use their website for my project
+**Media**
 
-Media
----
+* The planet images was sourced from the [NASA Solar System website](https://solarsystem.nasa.gov/)
 
-Acknowledgements
----
+**Acknowledgements**
 
 [Back to Table of Contents](#table-of-contents)
