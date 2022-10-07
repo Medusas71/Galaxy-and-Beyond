@@ -244,13 +244,15 @@ To do this:
 
 **Code**
 
+* The 'animated custom hamburger icon' was sourced from [YouTube](https://www.youtube.com/watch?v=_MrShB9fh7U).
+
 **Content**
 
-* The content was sourced from the [NASA Solar System website](https://solarsystem.nasa.gov/)
+* The content was sourced from the [NASA Solar System website](https://solarsystem.nasa.gov/).
 
 **Media**
 
-* The planet images was sourced from the [NASA Solar System website](https://solarsystem.nasa.gov/)
+* The planet images was sourced from the [NASA Solar System website](https://solarsystem.nasa.gov/).
 
 **Acknowledgements**
 
