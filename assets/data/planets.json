@@ -1,0 +1,25 @@
+[{
+    "planet": "assets/images/planets/earth.png"
+  },
+  {
+    "planet": "assets/images/planets/jupiter.png"
+  },
+  {
+    "planet": "assets/images/planets/mars.png"
+  },
+  {
+    "planet": "assets/images/planets/mercury.png"
+  },
+  {
+    "planet": "assets/images/planets/neptune.png"
+  },
+  {
+    "planet": "assets/images/planets/saturn.png"
+  },
+  {
+    "planet": "assets/images/planets/uranus.png"
+  },
+  {
+    "planet": "assets/images/planets/venus.png"
+  }
+]
