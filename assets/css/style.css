@@ -30,28 +30,6 @@ h3 {
 
 /* animation */
 
-/* space shuttle animation */
-#slide {
-    bottom: 30px;
-    width: 150px;
-    -webkit-animation: slide 1s forwards;
-    -webkit-animation-delay: 2s;
-    animation: slide 1s forwards;
-    animation-delay: 2s;
-}
-
-@-webkit-keyframes slide {
-    100% {
-        left: 0;
-    }
-}
-
-@keyframes slide {
-    100% {
-        left: 0;
-    }
-}
-
 /* moving stars animation */
 @keyframes stars {
     0% {
@@ -64,9 +42,8 @@ h3 {
 }
 
 /* Navigation Menu */
-
-.space-shuttle {
-    padding-left: 20px;
+#random-planets {
+    height:;
 }
 
 .nav-background-image {
@@ -339,6 +316,10 @@ footer {
     padding: 20px;
 }
 
+#gmap_canvas {
+    border: 3px #787167 solid;
+}
+
 /*------------------------- media queries */
 
 /*------------------------- small devices (up to 480px) */
@@ -360,12 +341,6 @@ footer {
 
 /*------------------------- medium devices (tablets, up to 768px) */
 
-@media screen and (max-width: 768px) {
-
-    .space-shuttle {
-        display: none;
-    }
-}
 
 /*------------------------- large devices (desktops, 992px and up) */
 
