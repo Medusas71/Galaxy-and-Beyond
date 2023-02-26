@@ -1,7 +1,6 @@
 const planetContainer = document.getElementById('random-planets');
-const planetImages = document.createElement("img");
 
-const getRandomPlanet = () => {
+window.onload = getRandomPlanet = () => {
   
   fetch("assets/data/planets.json")
   .then((response) => response.json())

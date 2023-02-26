@@ -28,22 +28,11 @@ h3 {
     font-weight: 500;
 }
 
-/* animation */
-
-/* moving stars animation */
-@keyframes stars {
-    0% {
-        background-position: 0 0
-    }
-
-    100% {
-        background-position: 0 100%
-    }
-}
-
 /* Navigation Menu */
+
+/* im unsure if the height should be 80px or 100px */
 #random-planets {
-    height:;
+    height: 100px; 
 }
 
 .nav-background-image {
@@ -318,6 +307,19 @@ footer {
 
 #gmap_canvas {
     border: 3px #787167 solid;
+}
+
+/* animation */
+
+/* moving stars animation */
+@keyframes stars {
+    0% {
+        background-position: 0 0
+    }
+
+    100% {
+        background-position: 0 100%
+    }
 }
 
 /*------------------------- media queries */
